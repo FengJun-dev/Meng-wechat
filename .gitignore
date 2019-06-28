@@ -1,0 +1,7 @@
+.idea
+.DS_store
+private_settings.py
+venv
+__pycache__
+media/*
+!media/.keep
