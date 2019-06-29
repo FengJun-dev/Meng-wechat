@@ -9,8 +9,8 @@ class Basic(object):
         self.__leftTime = 0
 
     def __real_get_access_token(self):
-        app_id = "wx19b4f75c757efea2"
-        app_secret = "43521f75743dd679a5b477e6450bc581"
+        app_id = "wxa61f8143de8158c8"
+        app_secret = "eb268e6a45fc225c5b731cd46a7ccbdf"
         post_url = f'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={app_id}&secret={app_secret}'
         url_resp = urllib.urlopen(post_url)
         url_resp = json.loads(url_resp.read())
